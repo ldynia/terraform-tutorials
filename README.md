@@ -4,7 +4,6 @@
 
 [Get Started - Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started)
 
-
 ```bash
 $ git clone git@github.com:ldynia/terraform-tutorials.git
 $ cd terraform-tutorials/azure
@@ -90,8 +89,18 @@ $ cd terraform-tutorials/azure
 
 [CLI](https://learn.hashicorp.com/collections/terraform/cli)
 
+```bash
+$ cd ../
+$ git clone https://github.com/hashicorp/learn-terraform-init
+$ cd learn-terraform-init/
+```
+
 1. Initialize Terraform Configuration
 
     [Initialize Terraform Configuration](https://learn.hashicorp.com/tutorials/terraform/init?in=terraform/cli)
 
-1. 
+    ```powershell
+    ps> learn-terraform-init
+    ``
+
+1. XXX
