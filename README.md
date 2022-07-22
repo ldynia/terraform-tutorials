@@ -16,6 +16,7 @@ $ cd terraform-tutorials/azure
     ```powershell
     # Az login
     ps> az login
+    ps> az group create --location westeurope --resource-group sandbox
     ps> az account set --subscription <subscription_id>
     ps> az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription_id>"
     {
