@@ -17,7 +17,7 @@ $ cd terraform-tutorials/azure
     # Az login
     ps> az login
     ps> az account set --subscription <subscription_id>
-    ps> az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/9d51f818-a66e-4f84-af2a-104e5aee24a5"
+    ps> az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription_id>"
     {
     "appId": "xxxxxx-xxx-xxxx-xxxx-xxxxxxxxxx",
     "displayName": "azure-cli-2022-xxxx",
